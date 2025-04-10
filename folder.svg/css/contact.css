@@ -1,0 +1,94 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  background-color: rgb(184, 231, 231);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36pt;
+  color: white;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: aliceblue;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 15px;
+}
+
+li a[href="index.html"] {
+  text-decoration: none;
+}
+
+li a[href="projects.html"] {
+  text-decoration: none;
+}
+
+li a[href="contact.html"] {
+  text-decoration: none;
+}
+
+#logo {
+  float: right;
+}
+#footer-container {
+  align-self: flex-start;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+#footer-container:hover {
+  color: white;
+  font-weight: bold;
+}

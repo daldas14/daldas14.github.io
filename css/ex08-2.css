@@ -1,0 +1,30 @@
+.table {
+    margin: 500px auto;
+    font-family: Arial;
+    background-color: bisque;
+}
+.table tr {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.table td {
+    padding: 3px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+.elephant {
+    width: 70%;
+}
+.last-column {
+    width: 30%;
+}
+.caption {
+    width: 70%;
+}
+.second-row {
+    width: 35%;
+}
+body {
+    background-color: lightblue;
+}
